@@ -51,12 +51,12 @@ code/
 │   └── evaluation/        ✓
 ├── reports/               ✓ (figures, tables for thesis)
 ├── configs/               ✓ (YAML config files)
-├── tests/                 ← ADD: small test scripts to verify modules work
-├── logs/                  ← ADD: experiment run logs
-├── .gitignore             ← ADD: exclude data/, .venv/, __pycache__
-├── pyproject.toml         ← ADD: uv project file (Phase 1 will create)
-├── README.md              ← ADD: brief project description
-└── notes/                 ← ADD: your experiment notes (markdown files per phase)
+├── tests/                 ← small test scripts to verify modules work
+├── logs/                  ← experiment run logs
+├── .gitignore             ← exclude data/, .venv/, __pycache__
+├── pyproject.toml         ← uv project file
+├── README.md              ← brief project description
+└── notes/                 ← experiment notes (markdown files per phase)
 </pre>
 
 <h3>Full Phase Roadmap (We'll Execute One at a Time)
