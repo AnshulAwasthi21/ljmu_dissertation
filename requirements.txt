@@ -1,0 +1,22 @@
+datasets==3.6.0
+huggingface_hub
+pandas 
+numpy 
+pyarrow 
+tqdm 
+python-dotenv
+ipykernel 
+jupyter
+# for sentence transformers
+sentence-transformers
+# open ai
+openai
+# visualization
+matplotlib
+seaborn
+# for evaluation
+pytest
+#sparse
+rank_bm25 
+# for vector search
+faiss-cpu

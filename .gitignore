@@ -1,0 +1,79 @@
+# =============================================================
+#  .gitignore  —  Beyond the Prompt (LJMU MSc thesis code)
+#  Study results, raw data, and dissertation notes are
+#  withheld during the evaluation / grading phase.
+# =============================================================
+
+# ----- Secrets & environment (NEVER commit) -----
+.env
+.env.*
+*.key
+secrets.*
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# data files
+data/raw/
+data/processed/
+outputs/
+experiments/
+
+# reference files
+refs/
+
+# ----- Large data artefacts (defence in depth) -----
+*.parquet
+*.faiss
+*.index
+*.pkl
+*.npy
+*.npz
+ 
+# ----- OS / editor noise -----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =============================================================
+#  Withheld during grading.
+#  The folder stays visible on GitHub via a placeholder
+#  README.md; everything else inside it is ignored.
+# =============================================================
+/data/*
+!/data/README.md
+/experiments/*
+!/experiments/README.md
+/outputs/*
+!/outputs/README.md
+/reports/*
+!/reports/README.md
+/logs/*
+!/logs/README.md
+/notes/*
+!/notes/README.md
+
+# =============================================================
+#  notebooks/  —  publish only the top-level analysis
+#  notebooks. Drop the data-prep and *queries* notebooks,
+#  any data files (e.g. gemini_output.csv), and every
+#  sub-folder (data, notes, phase-3 .. phase-8, reports).
+# =============================================================
+/notebooks/*/
+/notebooks/*.csv
+/notebooks/00-data-prep.ipynb
+/notebooks/*queries*.ipynb
