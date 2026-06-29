@@ -1,4 +1,4 @@
-# Beyond the Prompt — Comparative Vectorisation & Retrieval for Financial Summarisation
+# Beyond the Prompt : Comparative Vectorisation & Retrieval for Financial Summarisation
 
 Code for the LJMU MSc dissertation *"Beyond the Prompt: A Comparative Study of
 Vectorisation and Retrieval Techniques for Improving Generative AI Summarisation
