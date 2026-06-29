@@ -5,8 +5,8 @@ Vectorisation and Retrieval Techniques for Improving Generative AI Summarisation
 Accuracy Across Formal and Conversational Financial Narratives."*
 
 The study runs a controlled, single-variable comparison of three retrieval
-strategies — sparse (BM25), dense (`bge-small-en-v1.5` with a FAISS exact-cosine
-index), and a hybrid that fuses them through Reciprocal Rank Fusion — over two
+strategies - sparse (BM25), dense (`bge-small-en-v1.5` with a FAISS exact-cosine
+index), and a hybrid that fuses them through Reciprocal Rank Fusion - over two
 financial corpora: formal EDGAR 10-K filings and conversational S&P 500
 earnings-call transcripts. The chunk store, golden query set, generator, and
 prompt are all held constant, so that only the retriever varies and any
