@@ -112,5 +112,5 @@ cleaning → chunking → golden evaluation set → the three retrievers → gen
 
 ## Licence / academic note
 
-This code accompanies an MSc dissertation submitted to Liverpool John Moores
+This code accompanies an MS dissertation submitted to Liverpool John Moores
 University. Please do not reuse it for assessed work.
